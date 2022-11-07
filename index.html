@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var age = prompt('Какой ваш возраст?');
+        var a = age % 10;
+        var b = age % 100;
+        if (b >= 11 && b <= 19) {
+            alert('Ваш возраст:'+age+' лет');
+        } else if (a == 1) {
+            alert('Ваш возраст:'+age+' год');
+        } else if (a >= 2 && a <= 4) {
+            alert('Ваш возраст:'+age+' года');
+        } else if (age == 0 || age >= 5 && age <= 20) {
+            alert('Ваш возраст:'+age+' лет');
+        } else {
+            alert('Ваш возраст:'+age+' лет');
+        }
+    </script>
+</body>
+</html>
